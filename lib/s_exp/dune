@@ -8,4 +8,4 @@
  (name s_exp)
  (preprocess
   (staged_pps ppx_import ppx_deriving.show))
- (libraries core))
+ (libraries core ast))
